@@ -354,7 +354,7 @@ function App() {
 					</div>
 
 					<a
-						href="https://github.com/your-username/supermarket-together-save-editor"
+						href="https://github.com/ralfarishi/supermarket-together-save-editor"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="p-2 border border-off-white/10 hover:bg-off-white/5 text-off-white transition-all flex items-center justify-center"
@@ -415,8 +415,9 @@ function App() {
 								<span>SYSTEM NOTICE & DISCLAIMER</span>
 							</div>
 							<p className="text-[10px] uppercase leading-normal opacity-90">
-								Data collected based on the developer's personal data and game save files. 
-								If there is a discrepancy, it means I am not using that property (e.g., shelf type, cashier, or other property).
+								Data collected based on the developer's personal data and game save files. If there
+								is a discrepancy, it means I am not using that property (e.g., shelf type, cashier,
+								or other property).
 							</p>
 						</div>
 					</div>
@@ -499,4 +500,3 @@ function App() {
 }
 
 export default App;
-

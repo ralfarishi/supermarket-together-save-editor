@@ -38,22 +38,26 @@ Look for files named `StoreFile0.es3`, `StoreFile1.es3`, or `AutoSaveX.es3`. Mak
 This project is built using modern web standards. To run this project locally, ensure you have [Node.js](https://nodejs.org/) installed, then follow these steps:
 
 ### 1. Clone the Repository
+
 ```bash
-git clone https://github.com/your-username/supermarket-together-save-editor.git
+git clone https://github.com/ralfarishi/supermarket-together-save-editor.git
 cd supermarket-together-save-editor
 ```
 
 ### 2. Install Dependencies
+
 ```bash
 pnpm install
 ```
 
 ### 3. Run the Development Server
+
 ```bash
 pnpm run dev
 ```
 
 ### 4. Build for Production
+
 ```bash
 pnpm run build
 ```
