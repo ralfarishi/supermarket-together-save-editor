@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import "tailwindcss";
+
+:root, [data-theme="receipt"] {
+  --bg-charcoal: #faf8f2; /* Receipt Paper Warm White */
+  --bg-card: #efebd6; /* Slightly darker Warm Receipt Cream */
+  --laser-red: #ef4444; /* Laser red scanner line */
+  --led-green: #15803d; /* Dark printer ink green */
+  --warning-brass: #b45309; /* Rich brown/ochre warning */
+  --terminal-amber: #d97706; /* Amber warning indicators */
+  --off-white: #1b1a17; /* Thermal printer charcoal print text */
+}
+
+[data-theme="mint"] {
+  --bg-charcoal: #f3f6f1; /* Soft mint cream */
+  --bg-card: #e6ede2; /* Slightly darker mint */
+  --laser-red: #f43f5e; /* Coral red */
+  --led-green: #0d9488; /* Teal ink */
+  --warning-brass: #b45309; /* Brass warning */
+  --terminal-amber: #0f766e; /* Teal highlight */
+  --off-white: #111c15; /* Forest ink */
+}
+
+[data-theme="vintage"] {
+  --bg-charcoal: #f1f5f2; /* Retro light seafoam gray */
+  --bg-card: #e2eae5; /* Muted greenish-beige */
+  --laser-red: #e11d48; /* Crimson */
+  --led-green: #1e3a8a; /* Retro blue */
+  --warning-brass: #9a3412; /* Brass rust */
+  --terminal-amber: #b45309; /* Vintage gold */
+  --off-white: #1c2826; /* Deep charcoal navy-ink */
+}
+
+[data-theme="lcd"] {
+  --bg-charcoal: #f4f6f0; /* Matrix light beige-green */
+  --bg-card: #e3e8dc; /* Retro LCD green-tinted card */
+  --laser-red: #dc2626; /* Scanner red */
+  --led-green: #16a34a; /* CRT green */
+  --warning-brass: #ea580c; /* LCD safety orange */
+  --terminal-amber: #ca8a04; /* Dark yellow LCD indicator */
+  --off-white: #111827; /* Charcoal */
+}
+
+@theme {
+  --color-bg-charcoal: var(--bg-charcoal);
+  --color-bg-card: var(--bg-card);
+  --color-laser-red: var(--laser-red);
+  --color-led-green: var(--led-green);
+  --color-warning-brass: var(--warning-brass);
+  --color-terminal-amber: var(--terminal-amber);
+  --color-off-white: var(--off-white);
+
+  --font-sans: 'Outfit', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --animate-slide-down: slide-down 1.2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  --animate-print-roll: print-roll 0.8s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+
+  @keyframes slide-down {
+    0% {
+      transform: translateY(-5vh);
+      opacity: 0;
+    }
+    15% {
+      opacity: 1;
+    }
+    85% {
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(105vh);
+      opacity: 0;
+    }
+  }
+
+  @keyframes print-roll {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+}
+
+@layer base {
+  body {
+    background-color: var(--bg-charcoal);
+    color: var(--off-white);
+    font-family: var(--font-sans);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  /* Scanline effect */
+  .scanline {
+    background: linear-gradient(
+      to bottom,
+      rgba(255,255,255,0),
+      rgba(255,255,255,0) 50%,
+      rgba(0, 0, 0, 0.3) 50%,
+      rgba(0, 0, 0, 0.3)
+    );
+    background-size: 100% 4px;
+  }
+}
+
+@keyframes warning-pulse {
+  0%, 100% {
+    border-color: rgba(239, 68, 68, 0.25);
+    background-color: rgba(239, 68, 68, 0.03);
+    opacity: 0.65;
+    box-shadow: 0 0 0 rgba(239, 68, 68, 0);
+  }
+  50% {
+    border-color: rgba(239, 68, 68, 0.75);
+    background-color: rgba(239, 68, 68, 0.08);
+    opacity: 1;
+    box-shadow: 0 0 8px rgba(239, 68, 68, 0.15);
+  }
+}
+
+.animate-warning-pulse {
+  animation: warning-pulse 3s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  border-width: 1px;
+  border-style: solid;
+}
+

@@ -1,0 +1,27 @@
+{
+  "200": {
+    "name": "Cash Register (Tier 1)",
+    "category": "register",
+    "verified": true
+  },
+  "201": {
+    "name": "Cash Register (Tier 2)",
+    "category": "register",
+    "verified": true
+  },
+  "202": {
+    "name": "Cash Register (Tier 3)",
+    "category": "register",
+    "verified": true
+  },
+  "203": {
+    "name": "Cash Register (Tier 4)",
+    "category": "register",
+    "verified": true
+  },
+  "204": {
+    "name": "Cash Register (Tier 5)",
+    "category": "register",
+    "verified": true
+  }
+}

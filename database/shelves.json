@@ -1,0 +1,252 @@
+{
+  "1": {
+    "name": "Shelf",
+    "slots": 4,
+    "category": "storefront",
+    "containerClass": 0,
+    "verified": true,
+    "dim": { "x": 0.056, "y": 2.000, "z": 2.000 },
+    "columns": 1,
+    "rows": 4
+  },
+  "2": {
+    "name": "Basic Fridge",
+    "slots": 5,
+    "category": "storefront",
+    "containerClass": 1,
+    "verified": true,
+    "dim": { "x": 0.600, "y": 0.141, "z": 0.600 },
+    "columns": 1,
+    "rows": 5
+  },
+  "3": {
+    "name": "Double Fridge",
+    "slots": 10,
+    "category": "storefront",
+    "containerClass": 1,
+    "verified": true,
+    "dim": { "x": 1.200, "y": 0.141, "z": 0.600 },
+    "columns": 2,
+    "rows": 5
+  },
+  "4": {
+    "name": "Freezer",
+    "slots": 2,
+    "category": "storefront",
+    "containerClass": 2,
+    "verified": true,
+    "dim": { "x": 1.201, "y": 0.747, "z": 0.800 },
+    "columns": 2,
+    "rows": 1
+  },
+  "5": {
+    "name": "Storage Shelf",
+    "slots": 10,
+    "category": "storage",
+    "containerClass": 69,
+    "verified": true,
+    "dim": null,
+    "columns": null,
+    "rows": null
+  },
+  "6": {
+    "name": "Checkout",
+    "slots": 1,
+    "category": "register",
+    "containerClass": 99,
+    "verified": true,
+    "dim": null,
+    "columns": null,
+    "rows": null
+  },
+  "7": {
+    "name": "Checkout B",
+    "slots": 1,
+    "category": "register",
+    "containerClass": 99,
+    "verified": true,
+    "dim": null,
+    "columns": null,
+    "rows": null
+  },
+  "8": {
+    "name": "Standing Freezer",
+    "slots": 10,
+    "category": "storefront",
+    "containerClass": 2,
+    "verified": true,
+    "dim": { "x": 0.072, "y": 2.000, "z": 0.627 },
+    "columns": 2,
+    "rows": 5
+  },
+  "9": {
+    "name": "Product Counter A",
+    "slots": 10,
+    "category": "storefront",
+    "containerClass": 0,
+    "verified": true,
+    "dim": { "x": 3.600, "y": 0.680, "z": 1.610 },
+    "columns": 2,
+    "rows": 5
+  },
+  "10": {
+    "name": "Storage Shelf Unlabeled",
+    "slots": 10,
+    "category": "storage",
+    "containerClass": 69,
+    "verified": true,
+    "dim": null,
+    "columns": null,
+    "rows": null
+  },
+  "11": {
+    "name": "Produce Shelf A",
+    "slots": 4,
+    "category": "storefront",
+    "containerClass": 3,
+    "verified": true,
+    "dim": { "x": 2.732, "y": 0.900, "z": 1.669 },
+    "columns": 2,
+    "rows": 2
+  },
+  "13": {
+    "name": "Produce Shelf B",
+    "slots": 4,
+    "category": "storefront",
+    "containerClass": 3,
+    "verified": true,
+    "dim": { "x": 2.665, "y": 0.708, "z": 0.738 },
+    "columns": 2,
+    "rows": 2
+  },
+  "14": {
+    "name": "Shelf Half",
+    "slots": 4,
+    "category": "storefront",
+    "containerClass": 0,
+    "verified": true,
+    "dim": null,
+    "columns": 1,
+    "rows": 4
+  },
+  "15": {
+    "name": "Tiered Shelf",
+    "slots": 4,
+    "category": "storefront",
+    "containerClass": 0,
+    "verified": true,
+    "dim": { "x": 0.995, "y": 0.072, "z": 0.574 },
+    "columns": 1,
+    "rows": 4
+  },
+  "16": {
+    "name": "Shelf Wall",
+    "slots": 3,
+    "category": "storefront",
+    "containerClass": 0,
+    "verified": true,
+    "dim": { "x": 1.000, "y": 1.082, "z": 0.058 },
+    "columns": 1,
+    "rows": 3
+  },
+  "17": {
+    "name": "Shelf Peg Board",
+    "slots": 5,
+    "category": "storefront",
+    "containerClass": 4,
+    "verified": true,
+    "dim": { "x": 0.997, "y": 0.229, "z": 0.616 },
+    "columns": 1,
+    "rows": 5
+  },
+  "21": {
+    "name": "Basic Pallet",
+    "slots": 1,
+    "category": "storefront",
+    "containerClass": 0,
+    "verified": true,
+    "dim": null,
+    "columns": 1,
+    "rows": 1
+  },
+  "22": {
+    "name": "Wooden Pallet A",
+    "slots": 1,
+    "category": "storefront",
+    "containerClass": 0,
+    "verified": true,
+    "dim": null,
+    "columns": 1,
+    "rows": 1
+  },
+  "31": {
+    "name": "Plastic Shelf A",
+    "slots": 10,
+    "category": "storefront",
+    "containerClass": 0,
+    "verified": true,
+    "dim": { "x": 2.000, "y": 0.331, "z": 0.662 },
+    "columns": 2,
+    "rows": 5
+  },
+  "32": {
+    "name": "Plastic Shelf B",
+    "slots": 4,
+    "category": "storefront",
+    "containerClass": 0,
+    "verified": true,
+    "dim": { "x": 2.000, "y": 2.153, "z": 0.048 },
+    "columns": 1,
+    "rows": 4
+  },
+  "34": {
+    "name": "Plastic Shelf D",
+    "slots": 4,
+    "category": "storefront",
+    "containerClass": 0,
+    "verified": true,
+    "dim": { "x": 2.000, "y": 2.091, "z": 0.056 },
+    "columns": 1,
+    "rows": 4
+  },
+  "37": {
+    "name": "The Big Shelf",
+    "slots": 28,
+    "category": "storefront",
+    "containerClass": 0,
+    "verified": true,
+    "dim": { "x": 2.200, "y": 1.839, "z": 0.070 },
+    "columns": 2,
+    "rows": 5
+  },
+  "38": {
+    "name": "Wooden Shelf A",
+    "slots": 4,
+    "category": "storefront",
+    "containerClass": 0,
+    "verified": true,
+    "dim": { "x": 1.000, "y": 2.466, "z": 0.065 },
+    "columns": 1,
+    "rows": 4
+  },
+  "39": {
+    "name": "Wooden Shelf B",
+    "slots": 4,
+    "category": "storefront",
+    "containerClass": 0,
+    "verified": true,
+    "dim": { "x": 2.000, "y": 2.466, "z": 0.057 },
+    "columns": 1,
+    "rows": 4
+  },
+  "40": {
+    "name": "Wooden Shelf C",
+    "slots": 4,
+    "category": "storefront",
+    "containerClass": 0,
+    "verified": true,
+    "dim": { "x": 2.000, "y": 2.466, "z": 0.059 },
+    "columns": 1,
+    "rows": 4
+  }
+}
