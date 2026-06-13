@@ -26,7 +26,7 @@ A premium, data-driven, client-side web utility to edit save files and visually 
 Your game save files are typically stored in the following directory:
 
 ```plaintext
-%UserProfile%\AppData\LocalLow\Sorendg\Supermarket Together\
+%USERPROFILE%\AppData\LocalLow\DDTNL\SupermarketTogether\
 ```
 
 Look for files named `StoreFile0.es3`, `StoreFile1.es3`, or `AutoSaveX.es3`. Make sure to **create a backup copy** of your saves before editing them.
